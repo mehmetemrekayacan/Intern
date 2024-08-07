@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    background: linear-gradient(to bottom, #fff, #999);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+.avatar{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 18px;
+    color: #000;
+    margin: 10px 0px 0px 0px;
+}
+
+
+h4{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color: #767676;
+    margin: 0px 0px 35px 0px;
+}
+a{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px 0px 25px 0px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #fff, #999);
+    border: 1px solid #535353;
+    border-radius: 4px;
+    display: block;
+}
+
+a:hover{
+    background: linear-gradient(to right, #fff, #999);
+    color: #fff;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.social > * {
+    margin: 12.5px;
+}
+b {
+    padding: 0px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+b:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
