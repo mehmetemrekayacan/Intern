@@ -4,7 +4,8 @@ body{
     background: radial-gradient(circle at 20% 50%, #DB7D30 10%, #C99646 30%, #B496A5 100%);
     text-align: center;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
+    max-height: 500px;
     margin: 0 auto; 
 }
 
@@ -44,19 +45,17 @@ h4{
 }
 h5{
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 500;
+    font-weight: 1000;
     font-size: 16px;
     color: #000000;
     margin: 0px 0px 25px 0px;
     text-decoration: none;
     padding: 15px 30px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
     display: block;
-    background: rgba(255, 255, 255, 0.2); /* Yarı şeffaf beyaz arka plan */
-    backdrop-filter: blur(10px); /* Arka plan bulanıklığı */
-    border-radius: 15px; /* Yuvarlatılmış köşeler */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif kenar gölgeleri */
+    border-radius: 15px;
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #d6d6d6 0%,#FFFFFF 50%, #d6d6d6 100%);
 }
 
 h5:hover{
