@@ -115,17 +115,12 @@ b{
 
 .social{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 400px;
     justify-content: center;
-    margin: 25px 0px 0px 0px;
+    align-items: center;
+    margin-top: 50px;
 }
 
-.social > * {
-    margin: 12.5px;
-}
-
-icon {
+.social a{
     padding: 0px;
     border: 0px;
     height: 32px;
@@ -137,9 +132,14 @@ icon {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-icon:hover{
+.social a:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     border-radius: 15px;
     cursor: pointer;
 }
+
+.social > * {
+    margin: 12.5px;
+}
+
