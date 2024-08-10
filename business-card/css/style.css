@@ -44,10 +44,10 @@ h3 {
     font-size: 24px;
     color: #000;
     margin: 10px 0 0;
-    background: linear-gradient(180deg, #FFFFFF 0%, #B8B8B8 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, #ebebeb 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
 }
 
 h4 {
