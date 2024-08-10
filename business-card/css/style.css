@@ -125,8 +125,8 @@ b{
     box-shadow: none;
     padding: 0px;
     border: 0px;
-    height: 32px;
-    width: 32px;
+    height: 24px;
+    width: 24px;
     border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
