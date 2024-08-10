@@ -20,6 +20,26 @@ html, body {
     margin-bottom: 10px;
 }
 
+.bonobo{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 1000;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.bonobo img{
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: block;
+    margin-left: -100px;
+    margin-right: auto;
+}
+
 h3{
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 1000;
