@@ -121,6 +121,8 @@ b{
 }
 
 .social a{
+    background: none;
+    box-shadow: none;
     padding: 0px;
     border: 0px;
     height: 32px;
