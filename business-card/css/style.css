@@ -7,6 +7,7 @@ body{
     max-width: 300px;
     max-height: 500px;
     margin: 0 auto; 
+    align-items: center;
 }
 
 html, body {
@@ -20,12 +21,20 @@ html, body {
     margin-bottom: 10px;
 }
 
-.bonobo{
+h1{
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 1000;
-    font-size: 24px;
+    font-size: 64px;
     color: #000;
     text-align: center;
+    margin: 100px 0px 20px 0px;
+}
+
+h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #767676;
     margin: 0px 0px 0px 0px;
 }
 
@@ -39,6 +48,7 @@ html, body {
     margin-left: -100px;
     margin-right: auto;
 }
+
 
 h3{
     font-family: "IBM Plex Sans", sans-serif;
@@ -84,6 +94,23 @@ a:hover{
     box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+b{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 15px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #d6d6d6 0%,#FFFFFF 50%, #d6d6d6 100%);
 }
 
 .social{
