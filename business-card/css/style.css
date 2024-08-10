@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body{
-    background: radial-gradient(circle at 20% 50%, #DB7D30 10%, #C99646 30%, #B496A5 100%);
+    background: radial-gradient(circle at 20% 50%, #DB7D30 10%, #C98147 30%, #B5A496 100%);
     text-align: center;
     width: 100%;
     max-width: 300px;
@@ -32,7 +32,6 @@ h3{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-
 h4{
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 500;
@@ -40,12 +39,13 @@ h4{
     color: #767676;
     margin: 0px 0px 35px 0px;
     background: linear-gradient(180deg, #FFFFFF 0%,#FFFFFF 50%, #B8B8B8 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 h5{
     font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 1000;
+    font-weight: bold;
     font-size: 16px;
     color: #000000;
     margin: 0px 0px 25px 0px;
@@ -59,8 +59,10 @@ h5{
 }
 
 h5:hover{
-    background: linear-gradient(to right, #fff, #999);
-    color: #fff;
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .social{
@@ -74,6 +76,7 @@ h5:hover{
 .social > * {
     margin: 12.5px;
 }
+
 icon {
     padding: 0px;
     border: 0px;
@@ -82,12 +85,13 @@ icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
 }
 
 icon:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px;
     cursor: pointer;
 }
