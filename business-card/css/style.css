@@ -84,20 +84,6 @@ a:hover {
     transform: translateY(-3px);
 }
 
-b {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    color: #000;
-    padding: 15px 30px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 15px;
-    box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(90deg, #d6d6d6 0%, #FFFFFF 50%, #d6d6d6 100%);
-    display: block;
-    margin: 50px auto 0;
-}
-
 .social {
     display: flex;
     justify-content: center;
@@ -135,4 +121,15 @@ b {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* media geliştirilmeli ! */
+@media (max-width: 300px) {
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
 }
