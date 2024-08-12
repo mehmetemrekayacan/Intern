@@ -9,8 +9,9 @@ body {
     background: radial-gradient(circle at 20% 50%, #DB7D30 10%, #C98147 30%, #B5A496 100%);
     text-align: center;
     width: 100%;
-    max-width: 300px;
-    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
     margin: 0 auto; 
     align-items: center;
 }
@@ -62,6 +63,16 @@ h4 {
     background: linear-gradient(180deg, #FFFFFF 0%, #B8B8B8 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.about_me-text{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 500px;
 }
 
 a {
