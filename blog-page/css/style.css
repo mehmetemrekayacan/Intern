@@ -1,23 +1,21 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
 body {
     background: #f5f5f5;
-    display: grid;
-    flex-direction: column;
-    align-items: first baseline;
+    display: block;
     text-align: center;
 }
 
 .navigation{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background: #c4c4c4;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
 
@@ -26,6 +24,7 @@ body {
 .nav-text {
     list-style: none;
     display: flex;
+    margin-left: -20px;
 }
 
 .nav-text a {
@@ -37,10 +36,33 @@ body {
 .nav-icon{
     list-style: none;
     display: flex;
+    margin-right: 10px;
 }
 
 .nav-icon a {
     text-decoration: none;
     color: #fff;
     padding: 10px;
+}
+
+.header{
+    background: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.header p{
+    font-size: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    margin: 0;
+    margin-bottom: 10px;
 }
