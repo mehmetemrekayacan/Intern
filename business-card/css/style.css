@@ -134,6 +134,9 @@ a:hover {
     gap: 20px;
     margin-top: 50px;
     padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .project li{
@@ -178,6 +181,10 @@ a:hover {
     line-height: 1.5;
     text-align: justify;
     max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .contact-container {
@@ -236,7 +243,7 @@ a:hover {
     background-color: #0056b3;
 }
 
-/* media geliştirilmeli ! */
+
 @media (max-width: 300px) {
     body{
         display: flex;
