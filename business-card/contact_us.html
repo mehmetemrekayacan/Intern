@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <section class="contact-container">
@@ -13,18 +13,18 @@
         </header>
         <form action="#" method="post">
             <div>
-                <label>Your Name</label>
-                <input placeholder="Your Name" required>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
             </div>
             <div>
-                <label>Your Email</label>
-                <input placeholder="Your Email" required>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
             </div>
             <div>
-                <label>Your Message</label>
-                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
             </div>
-            <button>Send Message</button>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 </body>
