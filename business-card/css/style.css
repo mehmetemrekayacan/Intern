@@ -152,6 +152,24 @@ a:hover {
     line-height: 1.5;
 }
 
+.project-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project-footer p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.project-footer p a{
+    padding: 5px;
+}
+
 .about_me-text{
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 500;
