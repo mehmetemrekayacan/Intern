@@ -66,3 +66,12 @@ body {
     margin: 0;
     margin-bottom: 10px;
 }
+
+.main-image{
+    display: flex;
+}
+
+.main-image img{
+    width: 100%;
+    height: 100%;
+}
