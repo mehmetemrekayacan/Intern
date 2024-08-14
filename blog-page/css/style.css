@@ -41,14 +41,21 @@ body {
     margin-right: 10px;
 }
 
-.main-image{
+.main-blog{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 15px;
+    margin-left: 7px;
+}
+
+.main-blog-item{
+    display: flex;
+    flex-direction: column;
+    inline-size: 100px;
+    align-items: center;
+    inline-size: 110px;
     position: relative;
-    display: flex;
-    justify-content: center;
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    
 }
 
 .main-image img{
@@ -57,21 +64,18 @@ body {
     border-radius: 10px;
 }
 
-.main-blog{
-    position: absolute;
-    display: flex;
-    gap: 32px;
-    padding: 10px;
-    margin-top: -70px;
-    margin-left: 10px;
-}
-
 .main-blog div{
     background-color: #C9D6DF;
     display: flex;
     flex-direction: column;
     padding: 10px;
     border-radius: 15px;
+    width: auto;
+    min-width: 75px;
+    max-width: 150px;
+    position: absolute;
+    top: 70%;
+
 }
 
 .main-blog h2{
