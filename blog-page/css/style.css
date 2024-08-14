@@ -31,6 +31,7 @@ body {
 }
 
 .menu{
+    cursor: pointer;
     gap: 30px;
     margin-left: auto;
     margin-right: 10px;
@@ -50,6 +51,7 @@ body {
     margin-right: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
+    cursor: pointer;
 }
 
 .hamburger-menu {
@@ -139,6 +141,7 @@ body {
     max-width: 150px;
     position: absolute;
     top: 70%;
+    cursor: pointer;
 
 }
 
@@ -181,6 +184,7 @@ body {
     width: 340px;
     height: 240px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .new-blog div{
@@ -200,6 +204,7 @@ body {
     font-size: 1.5em;
     color: #000;
     margin: 0;
+    cursor: pointer;
 }
 
 .new-blog p{
