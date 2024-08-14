@@ -26,12 +26,53 @@ body {
 }
 
 .hamburger-close{
-
     margin-left: auto;
     margin-right: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+#blur-background {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 9; 
+    display: none;
+
+}
+
+.hamburger-menu {
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    z-index: 10;  
+    overflow: hidden;
+}
+
+.hamburger-menu div {
+    background-color: #C9D6DF;
+    padding: 5px;
+    text-align: right;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.hamburger-menu a {
+    font-size: 1.2em;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+}
+
+.hamburger-menu div:hover {
+    background-color: #52616B;
+}
+
 
 .main-blog{
     display: flex;
@@ -193,6 +234,10 @@ body {
 @media screen and (min-width: 550px){
     .main-blog-item{
         width: 100%;
+    }
+    .hamburger-menu{
+        display: none;
+        right: 17px;
     }
 
 }
