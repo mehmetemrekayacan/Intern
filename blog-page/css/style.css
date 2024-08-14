@@ -255,6 +255,9 @@ body {
     .top-column{
         right: 17px;
     }
+    .header{
+        margin-left: 25px;
+    }
     .main-blog-item{
         width: 100%;
     }
