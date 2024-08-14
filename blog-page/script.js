@@ -1,5 +1,5 @@
 const hamburgerIcon = document.getElementById('hamburgerIcon');
-const menu = document.getElementById('menu');
+const menu = document.getElementById('hambuger-menu');
 const blurBackground = document.getElementById('blur-background');
 const img = hamburgerIcon.querySelector('img');
 let isOpen = false;
