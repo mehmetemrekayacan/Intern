@@ -19,6 +19,10 @@ body {
     align-items: center;
     height: 60px;
     border-bottom: 1px solid #1E2022;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .header{
@@ -33,25 +37,14 @@ body {
     margin-bottom: 0px;
 }
 
-#blur-background {
-    position: fixed;
-    top: 100px;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(8px);
-    z-index: 9; 
-    display: none;
-
-}
-
 .hamburger-menu {
-    /* display: none; */
-    position: absolute;
+    position: fixed;
     width: 100%;
-    top: 61px;
-    right: 0px;
-    z-index: 10;  
+    top: 60px;
+    right: 0;
+    z-index: 1000;
     overflow: hidden;
+    display: none;
 }
 
 .hamburger-menu div {
@@ -73,6 +66,29 @@ body {
     background-color: #52616B;
 }
 
+#blur-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    z-index: 999; 
+    opacity: 0;
+    display: none;
+    transition: opacity 0.5s, transform 0.5s;
+    pointer-events: none;
+}
+
+#blur-background.show {
+    display: block;
+    animation: fadeIn 0.5s forwards;
+}
+
+#blur-background.hide {
+    animation: fadeOut 0.5s forwards;
+}
+
 
 .main-blog{
     display: flex;
@@ -80,7 +96,7 @@ body {
     width: fit-content;
     gap: 15px;
     margin-left: 7px;
-    margin-top: 25px;
+    margin-top: 75px;
 }
 
 .main-blog-item{
@@ -246,5 +262,27 @@ body {
 
     #blur-background{
         right: 17px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
     }
 }
