@@ -13,13 +13,12 @@ body {
 
 .top-column{
     display: flex;
-    gap: 165px;
-    background: #e0e0e0;
+    background: #C9D6DF;
     align-items: center;
 }
 
 .header{
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .header h1{
@@ -27,6 +26,7 @@ body {
     color: #000;
     margin: 0;
     margin-top: 10px;
+    white-space: nowrap;
 }
 
 .header p{
@@ -37,50 +37,51 @@ body {
 }
 
 .hamburger-close{
-
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .main-image{
     position: relative;
     display: flex;
     justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
     
 }
 
 .main-image img{
-    width: 300px;
-    height: 300px;
+    width: 110px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .main-blog{
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    gap: 32px;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #000;
-    margin-top: -100px;
+    margin-top: -70px;
+    margin-left: 10px;
 }
 
 .main-blog div{
-    background-color: #ff0000;
+    background-color: #C9D6DF;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    border-radius: 15px;
 }
 
 .main-blog h2{
-    font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
     color: #000;
     margin: 0;
 }
 
 .main-blog p{
-    font-size: 1.25em;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.6em;
     color: #000;
     margin: 0;
-    background: #fff;
-    padding: 10px;
 }
