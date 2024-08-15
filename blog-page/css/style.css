@@ -11,7 +11,6 @@ body {
     background: #F0F5F9;
     display: block;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     background-image: url("../image/background.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -267,6 +266,44 @@ body {
     max-height: 100%;
 }
 
+/* about.html */
+
+.about-new-blog{
+    display: flex;
+    flex-direction: column;
+    background: #C9D6DF;
+    height: auto;
+    margin: 100px;
+    margin-top: 61px;
+    text-align: left;
+    padding: 20px;
+    max-width: 800px;
+}
+.about-new-blog div{
+    margin: 10px;
+}
+
+.about-new-blog summary{
+    font-size: 0.75em;
+    color: #000;
+    margin-bottom: 3px;
+}
+
+.about-new-blog h3{
+    font-size: 1.5em;
+    color: #000;
+    margin: 0;
+}
+.about-new-blog p{
+    font-size: 0.8em;
+    color: #000;
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* about.html */
+
+/* footer */
 .foot{
     display: flex;
     flex-direction: column;
