@@ -273,12 +273,14 @@ body {
     flex-direction: column;
     background: #C9D6DF;
     height: auto;
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 61px;
     text-align: left;
     padding: 20px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 .about-new-blog div{
     margin: 10px;
@@ -314,6 +316,56 @@ body {
     max-height: 500px;
     margin: 0 auto;
     border-radius: 10px;
+}
+
+.about-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #52616B;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-foot nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.about-foot nav a{
+    font-size: 0.85em;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    padding-right: 15px;
+    display: block;
+    width: 100%;
+}
+
+.about-foot nav a::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #C9D6DF;
+}
+
+.about-foot nav a:last-child::after {
+    content: '';
+}
+
+.about-foot p{
+    font-size: 0.7em;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    margin-top: 10px;
 }
 
 /* about.html */
@@ -431,7 +483,7 @@ body {
         align-items: last baseline;
     }
     .about-blog-image {
-        width: 500px;
+        width: 100%;
         height: auto;
     }
 
@@ -484,6 +536,11 @@ body {
     .new-blog {
         max-width: 1100px;
         margin: 0 auto;
+    }
+
+    .about-blog-image {
+        width: 800px;
+        height: auto;
     }
 }
 
