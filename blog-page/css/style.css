@@ -359,6 +359,17 @@ body {
     .main-blog {
         width: 45%;
     }
+    .about-new-blog{
+        display: flex;
+        flex-direction: column;
+        background: #C9D6DF;
+        height: auto;
+        margin: 25px;
+        margin-top: 61px;
+        text-align: left;
+        padding: 20px;
+        max-width: 800px;
+    }
 
 }
 
