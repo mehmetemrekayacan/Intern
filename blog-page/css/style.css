@@ -11,6 +11,8 @@ body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     background-image: url("../image/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .top-column{
@@ -109,9 +111,8 @@ body {
 .main-blog{
     display: flex;
     justify-content: space-between;
-    width: fit-content;
-    gap: 15px;
-    margin-left: 7px;
+    width: 100%;
+    height: auto;
     margin-top: 75px;
 }
 
@@ -163,34 +164,44 @@ body {
     gap: 10px;
     margin: 10px;
     margin-bottom: 50px;
-    margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 .new-blog{
     display: flex;
     flex-direction: column;
     background: #C9D6DF;
-    border-radius: 15px;
-    align-items: center;
-    margin-top: 50px;
+    border-radius: 15px; 
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .blog-image {
     align-items: center;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .blog-image img {
-    width: 340px;
-    height: 240px;
+    max-width: 800px;
+    width: 100%;
+    max-height: 500px;
+    margin: 0 auto;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .new-blog div{
     text-align: left;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
 }
 
 .new-blog summary{
