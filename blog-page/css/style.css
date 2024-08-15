@@ -114,13 +114,11 @@ body {
     width: 100%;
     height: auto;
     margin-top: 75px;
-    padding: 0 10px;
 }
 
 .main-blog-item{
     display: flex;
     flex-direction: column;
-    inline-size: 100px;
     align-items: center;
     inline-size: 110px;
     position: relative;
@@ -304,7 +302,9 @@ body {
 }
 
 @media screen and (min-width: 368px) and (max-width: 767px){
-
+    .main-blog {
+        width: 45%;
+    }
 
 }
 
@@ -335,6 +335,9 @@ body {
         top: 80%;
         font-size: 1.8em;
     }
+    #one{
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -358,8 +361,10 @@ body {
         grid-row: 3;
     }
 
+
     .main-blog-item {
-        width: 100%;
+        padding: 0 10px;
+        width: 50%;  
     }
     
 }
