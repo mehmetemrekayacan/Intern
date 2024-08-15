@@ -159,7 +159,7 @@ body {
 }
 
 .blog{
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 10px;
     margin: 10px;
@@ -175,6 +175,21 @@ body {
     max-width: 600px;
     width: 90%;
     margin: 0 auto;
+}
+
+#one{
+    grid-column: 1/span 3;
+    grid-row: 1/span 2;
+}
+
+#two{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#three{
+    grid-column: 4;
+    grid-row: 2;
 }
 
 .blog-image {
@@ -224,6 +239,7 @@ body {
     margin: 0;
     margin-top: 10px;
 }
+
 
 
 .foot{
@@ -304,6 +320,42 @@ body {
 
     #blur-background{
         right: 17px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #one, #two, #three {
+        grid-column: auto;
+        grid-row: auto; 
+    }
+
+    .main-blog-item{
+        width: 100%;
+    }
+    
+}
+
+@media (min-width: 1350px) {
+    .blog {
+        max-width: 1350px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .main-blog {
+        max-width: 1350px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+
+
+    .main-blog-item {
+        margin-bottom: 10px; /* Aralarındaki boşluğu azaltır */
+        width: 90%; /* Yüzde 90 genişlik ile ekranın tamamını kullanır */
+        max-width: none; /* Maksimum genişlik sınırlamasını kaldırır */
     }
 }
 
