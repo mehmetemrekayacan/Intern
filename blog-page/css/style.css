@@ -114,6 +114,7 @@ body {
     width: 100%;
     height: auto;
     margin-top: 75px;
+    padding: 0 10px;
 }
 
 .main-blog-item{
@@ -123,10 +124,14 @@ body {
     align-items: center;
     inline-size: 110px;
     position: relative;
+    max-width: 100%;
+    margin: 0 10px;
 }
 
 .main-image img{
-    width: 110px;
+    min-width: 110px;
+    max-width: 220px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -139,11 +144,10 @@ body {
     border-radius: 15px;
     width: auto;
     min-width: 75px;
-    max-width: 150px;
     position: absolute;
     top: 70%;
     cursor: pointer;
-
+    box-sizing: border-box;
 }
 
 .main-blog h2{
@@ -160,36 +164,23 @@ body {
 
 .blog{
     display: grid;
-    flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 10px;
     margin: 10px;
     margin-bottom: 50px;
     margin-top: 50px;
+    
 }
 
 .new-blog{
     display: flex;
     flex-direction: column;
     background: #C9D6DF;
-    border-radius: 15px; 
-    max-width: 600px;
-    width: 90%;
-    margin: 0 auto;
-}
-
-#one{
-    grid-column: 1/span 3;
-    grid-row: 1/span 2;
-}
-
-#two{
-    grid-column: 4;
-    grid-row: 1;
-}
-
-#three{
-    grid-column: 4;
-    grid-row: 2;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    
 }
 
 .blog-image {
@@ -240,7 +231,26 @@ body {
     margin-top: 10px;
 }
 
+#one{
+    grid-column: 1/span 3;
+    grid-row: 1/span 2;
+    max-width: 800px;
+    max-height: 100%;
+}
 
+#two{
+    grid-column: 4;
+    grid-row: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#three{
+    grid-column: 4;
+    grid-row: 2;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .foot{
     display: flex;
@@ -321,43 +331,58 @@ body {
     #blur-background{
         right: 17px;
     }
+    .main-blog div{
+        top: 80%;
+        font-size: 1.8em;
+    }
 }
 
 @media screen and (max-width: 767px){
-    #one, #two, #three {
-        grid-column: auto;
-        grid-row: auto; 
+    .blog {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
     }
 
-    .main-blog-item{
+    #one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #two {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #three {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .main-blog-item {
         width: 100%;
     }
     
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1100px) {
     .blog {
-        max-width: 1350px;
+        max-width: 1100px;
         margin: 0 auto;
         margin-top: 50px;
     }
 
     .main-blog {
-        max-width: 1350px;
+        max-width: 1100px;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 80px;
+    }
+
+    .new-blog {
+        max-width: 1100px;
+        margin: 0 auto;
     }
 }
 
-@media (max-width: 550px) {
-
-
-    .main-blog-item {
-        margin-bottom: 10px; /* Aralarındaki boşluğu azaltır */
-        width: 90%; /* Yüzde 90 genişlik ile ekranın tamamını kullanır */
-        max-width: none; /* Maksimum genişlik sınırlamasını kaldırır */
-    }
-}
 
 @keyframes fadeIn {
     from {
