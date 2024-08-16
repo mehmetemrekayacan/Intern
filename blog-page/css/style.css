@@ -419,9 +419,6 @@ body {
         
     }
     .about-new-blog{
-        display: flex;
-        flex-direction: column;
-        background: #C9D6DF;
         height: auto;
         margin: 25px;
         margin-top: 61px;
@@ -469,10 +466,6 @@ body {
     }
     .about-new-blog{
         align-items: last baseline;
-    }
-    .about-blog-image {
-        width: 100%;
-        height: auto;
     }
 
 }
