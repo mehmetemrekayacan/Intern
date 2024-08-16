@@ -235,6 +235,10 @@ body {
     margin-bottom: 3px;
 }
 
+.new-blog a{
+    text-decoration: none;
+}
+
 .new-blog h3{
     font-size: 1.5em;
     color: #000;
