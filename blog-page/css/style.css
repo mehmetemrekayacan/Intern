@@ -437,6 +437,7 @@ body {
 @media screen and (min-width: 368px) and (max-width: 767px){
     .main-blog {
         width: 45%;
+        
     }
     .about-new-blog{
         display: flex;
@@ -515,6 +516,9 @@ body {
 
     .main-blog {
         width: 45%;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .main-blog-item {
