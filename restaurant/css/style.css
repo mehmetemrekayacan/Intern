@@ -10,6 +10,24 @@ body {
 
 /* index.html */
 
+/* top bar */
+
+.top-bar{
+
+}
+
+/* top bar */
+
+/* nav bar */
+
+.nav-bar {
+
+}
+
+/* nav bar */
+
+/* hero */
+
 .hero {
     position: relative;
     width: 100%;
@@ -73,21 +91,8 @@ body {
     box-sizing: border-box;
     padding: 20px 40px;
 }
-/* top bar */
 
-.top-bar{
-
-}
-
-/* top bar */
-
-/* nav bar */
-
-.nav-bar {
-
-}
-
-/* nav bar */
+/* hero */
 
 /* index.html */
 
