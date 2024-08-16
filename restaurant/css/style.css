@@ -6,6 +6,7 @@
 body {
     font-family: MCFont;
     background-color: #C2C18D;
+    margin: 0;
 }
 
 /* index.html */
@@ -13,7 +14,11 @@ body {
 /* top bar */
 
 .top-bar{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #807E26;
+    padding: 20px 40px;
 }
 
 /* top bar */
@@ -21,7 +26,32 @@ body {
 /* nav bar */
 
 .nav-bar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #265D80;
+    padding: 20px 40px;
+    font-size: 1em;
+}
 
+.nav-bar-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: max-content;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.nav-bar-a:hover{
+    background-color: #AA4F4F;
+}
+
+.nav-bar-a img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
 }
 
 /* nav bar */
