@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="top-column">
+        <figure class="header">
+            <img src="image/marka başlık.png" alt="1">
+        </figure>
+        <nav class="menu" id="menu">
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <div>
+                <a href="about.html">About</a>
+            </div>
+            <div>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <figure class="hamburger-icon" id="hamburgerIcon">
+            <img src="icons/hamburger-close.svg" alt="1">
+        </figure>
+    </header>
+    
+    <div id="blur-background"></div>
+
+    <nav class="hamburger-menu" id="hambuger-menu">
+        <div>
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="contact-container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+        <form action="#" method="post">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="foot">
+        <p>&copy;2024 by Ozgur Zihin. Powered and secured by Emre</p>
+    </footer>  
+    <script src="script.js"></script>  
+</body>
+</html>
