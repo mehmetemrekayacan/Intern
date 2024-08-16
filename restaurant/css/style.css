@@ -1,0 +1,30 @@
+@font-face {
+    font-family: MCFont;
+    src: url(/restaurant/font/Minecraft.ttf);
+}
+
+body {
+    font-family: MCFont;
+    background-color: #C2C18D;
+}
+
+/* index.html */
+
+/* top bar */
+
+.top-bar{
+
+}
+
+/* top bar */
+
+/* nav bar */
+
+.nav-bar {
+
+}
+
+/* nav bar */
+
+/* index.html */
+
