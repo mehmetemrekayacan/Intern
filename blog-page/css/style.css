@@ -164,6 +164,10 @@ body {
     box-sizing: border-box;
 }
 
+.main-blog a{
+    text-decoration: none;
+}
+
 .main-blog h2{
     font-size: 0.8em;
     color: #000;
