@@ -56,6 +56,51 @@ body {
 
 /* nav bar */
 
+/* nav bar dropdown */
+
+.nav-bar-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #265D80;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 160px;
+    margin-top: 10px;
+}
+
+.nav-bar-dropdown div {
+    padding: 12px 16px;
+}
+
+.nav-bar-dropdown a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.nav-bar-dropdown a:hover {
+    background-color: #AA4F4F;
+}
+
+#nav-bar-dropdown-protein {
+    left: 0;
+}
+
+#nav-bar-dropdown-carb {
+    left: 25%;
+}
+
+#nav-bar-dropdown-fruit {
+    left: 50%;
+}
+
+#nav-bar-dropdown-special {
+    left: 75%;
+}
+
+/* nav bar dropdown */
+
 /* hero */
 
 .hero-1,
