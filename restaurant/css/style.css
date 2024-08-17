@@ -113,11 +113,14 @@ body {
 }
 
 .hero-button:hover{
-
+    border: 4px solid #898B8C;
 }
 
 .hero-button-a{
-    border: 4px solid #9D9FA1;
+    border-top: 4px solid #939192;
+    border-left: 4px solid #939192;
+    border-right: 4px solid #464646;
+    border-bottom: 8px solid #464646;
     background-color: #707070;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -129,6 +132,9 @@ body {
     padding: 20px 40px;
 }
 
+.hero-button-a:hover{
+    background-color: #545454;
+}
 /* hero */
 
 /* footer */
