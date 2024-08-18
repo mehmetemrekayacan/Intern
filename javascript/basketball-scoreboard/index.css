@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url(/javascript/basketball-scoreboard/CursedTimerUlil.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    margin: 100px
+}
+
+.container div {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: "Digital-7";
+}
+
+.container div h3 {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.container div p {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px;
+    color: tomato;
+    font-size: 5em;
+}
+
+.container div button {
+    color: #9AABD8;
+    border: 3px solid #9AABD8;
+    background-color: #1B244A;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Digital-7"; 
+}
