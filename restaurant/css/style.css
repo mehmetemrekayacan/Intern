@@ -6,7 +6,7 @@
 body {
     font-family: MCFont;
     background-color: #C2C18D;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* index.html */
@@ -14,11 +14,23 @@ body {
 /* top bar */
 
 .top-bar{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-items: center;
     background-color: #807E26;
     padding: 20px 40px;
+}
+
+.top-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.top-icon{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 /* top bar */
@@ -26,8 +38,8 @@ body {
 /* nav bar */
 
 .nav-bar {
-    display: flex;
-    justify-content: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     align-items: center;
     background-color: #265D80;
     padding: 20px 40px;
@@ -227,3 +239,19 @@ body {
 
 /* index.html */
 
+
+@media screen and (max-width:500px) {
+    .top-logo{
+        width: 100%;
+    }
+    .top-icon{
+        margin: 5px 0px 5px 50px;
+    }
+    .top-icon a{
+        width:100%;
+    }
+    .top-icon a img{
+        width:40%;
+    }
+
+}
