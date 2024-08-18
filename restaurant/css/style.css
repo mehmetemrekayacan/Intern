@@ -49,6 +49,9 @@ body {
     background-color: #265D80;
     padding: 20px 40px;
     font-size: 1em;
+    position: sticky;
+    top: 0; /* Ekranın üst kısmına yapışmasını sağlar */
+    z-index: 1000; /* Üstte görünmesini sağlar */
 }
 
 .nav-bar-a{
