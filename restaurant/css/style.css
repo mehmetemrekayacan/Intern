@@ -32,6 +32,11 @@ body {
     justify-content: right;
     align-items: center;
 }
+.top-icon img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+}
 
 /* top bar */
 
@@ -78,6 +83,7 @@ body {
     z-index: 1;
     min-width: 160px;
     margin-top: 10px;
+    
 }
 
 .nav-bar-dropdown div {
@@ -85,7 +91,7 @@ body {
 }
 
 .nav-bar-dropdown a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
     padding: 10px 20px;
