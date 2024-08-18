@@ -302,10 +302,11 @@ body {
 
 /* about.html */
 
-/* foods */
+/* foods-html */
 
 .product-container {
     display: flex;
+    max-width: 100px;
     justify-content: center;
     padding: 20px 40px;
     margin: 0 auto 50px auto;
@@ -319,8 +320,6 @@ body {
     padding: 20px 40px;
     margin: 0 auto;
 }
-
-
 
 .product-box nav{
     display: flex;
@@ -352,7 +351,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .product-box nav p{
@@ -373,7 +372,7 @@ body {
     display: inline-block;
 }
 
-/* foods */
+/* foods-html */
 
 
 @media screen and (max-width:500px) {
