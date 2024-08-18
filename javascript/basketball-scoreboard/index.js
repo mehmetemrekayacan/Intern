@@ -4,6 +4,6 @@ function homeScore(points) {
 }
 
 function guestScore(points) {
-    let homeScore = document.getElementById("guest-score-el");
-    homeScore.innerHTML = parseInt(homeScore.innerHTML) + points;
+    let guestScore = document.getElementById("guest-score-el");
+    guestScore.innerHTML = parseInt(guestScore.innerHTML) + points;
 }
