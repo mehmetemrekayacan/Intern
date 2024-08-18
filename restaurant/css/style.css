@@ -50,8 +50,8 @@ body {
     padding: 20px 40px;
     font-size: 1em;
     position: sticky;
-    top: 0; /* Ekranın üst kısmına yapışmasını sağlar */
-    z-index: 1000; /* Üstte görünmesini sağlar */
+    top: 0; 
+    z-index: 1000;
 }
 
 .nav-bar-a{
@@ -83,10 +83,10 @@ body {
     position: absolute;
     background-color: #265D80;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
     min-width: 160px;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
+    position: sticky;
+    z-index: 1001;
 }
 
 .nav-bar-dropdown div {
