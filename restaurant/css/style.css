@@ -304,6 +304,16 @@ body {
 
 /* foods-html */
 
+.type-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #807E26;
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
 .product-container {
     display: flex;
     max-width: 100px;
@@ -314,7 +324,7 @@ body {
 
 .product-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 100px;
     max-width: fit-content;
     padding: 20px 40px;
