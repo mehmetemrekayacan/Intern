@@ -48,7 +48,7 @@ body {
     align-items: center;
     background-color: #265D80;
     padding: 20px 40px;
-    font-size: 1em;
+    font-size: 1.2em;
     position: sticky;
     top: 0; 
     z-index: 1000;
@@ -80,11 +80,10 @@ body {
 
 .nav-bar-dropdown {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #265D80;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     min-width: 160px;
-    margin-top: 10px; 
     position: sticky;
     z-index: 1001;
 }
@@ -268,7 +267,7 @@ body {
 }
 
 .about-text{
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
     max-width: 1500px;
 }
@@ -554,7 +553,7 @@ body {
 
     .map-container iframe {
         width: 100%;
-        height: auto;
+
     }
 
     /* foods-html */

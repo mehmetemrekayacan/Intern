@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 hideAllDropdowns();
                 dropdown.style.display = "block";
-                dropdown.style.top = `${rect.bottom}px`;
+                dropdown.style.position = "fixed"; // Change position to fixed
+                dropdown.style.top = `${rect.bottom}px`; // Adjust for scrolling
                 dropdown.style.left = `${rect.left}px`;
             }
         });
