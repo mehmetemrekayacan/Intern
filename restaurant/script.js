@@ -1,38 +1,38 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const menuItems = document.querySelectorAll(".nav-bar-a");
-    const dropdowns = {
-        protein: document.getElementById("nav-bar-dropdown-protein"),
-        carb: document.getElementById("nav-bar-dropdown-carb"),
-        fruit: document.getElementById("nav-bar-dropdown-fruit"),
-        special: document.getElementById("nav-bar-dropdown-special"),
-    };
+    // Tüm dropdown butonlarını ve dropdown menülerini seçelim
+    const navBarItems = document.querySelectorAll(".nav-bar-a");
+    const dropdowns = document.querySelectorAll(".nav-bar-dropdown");
 
-    function hideAllDropdowns() {
-        Object.values(dropdowns).forEach(dropdown => dropdown.style.display = "none");
-    }
+    // Her bir nav-bar öğesi için tıklama olayını ekleyelim
+    navBarItems.forEach(item => {
+        item.addEventListener("click", function () {
+            const targetDropdownId = "nav-bar-dropdown-" + this.id;
 
-    menuItems.forEach(menuItem => {
-        menuItem.addEventListener("click", function (event) {
-            event.preventDefault();
-            const id = this.id;
-            const dropdown = dropdowns[id];
-            const rect = this.getBoundingClientRect();
+            // Tıklanan butona ait dropdown'ı seçelim
+            const targetDropdown = document.getElementById(targetDropdownId);
 
-            if (dropdown.style.display === "block") {
-                dropdown.style.display = "none";
+            // Diğer tüm dropdown'ları kapatalım
+            dropdowns.forEach(dropdown => {
+                if (dropdown !== targetDropdown) {
+                    dropdown.style.display = "none";
+                }
+            });
+
+            // Hedef dropdown'ı aç/kapat yapalım
+            if (targetDropdown.style.display === "block") {
+                targetDropdown.style.display = "none";
             } else {
-                hideAllDropdowns();
-                dropdown.style.display = "block";
-                dropdown.style.position = "fixed"; // Change position to fixed
-                dropdown.style.top = `${rect.bottom}px`; // Adjust for scrolling
-                dropdown.style.left = `${rect.left}px`;
+                targetDropdown.style.display = "block";
             }
         });
     });
 
-    document.addEventListener("click", function (event) {
-        if (!event.target.closest(".nav-bar")) {
-            hideAllDropdowns();
+    // Ekranın herhangi bir yerine tıklandığında dropdown'ları kapatalım
+    document.addEventListener("click", function (e) {
+        if (!e.target.closest(".nav-bar-a")) {
+            dropdowns.forEach(dropdown => {
+                dropdown.style.display = "none";
+            });
         }
     });
 });
