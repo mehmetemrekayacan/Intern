@@ -259,7 +259,27 @@ body {
     align-items: center;
     background-color: #807E26;
     padding: 20px 40px;
-    margin-bottom: 50px;
+}
+
+.about-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    font-size: 1rem;
+    margin-bottom: 30px;
+    max-width: 1500px;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #807E26;
 }
 
 /* about */
@@ -267,14 +287,12 @@ body {
 /* map */
 
 .map-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    text-align: center;
-    background-color: #807E26;
+    max-width: 600px;
+    margin: 50px auto;
     padding: 20px 40px;
-    margin-bottom: 50px;
-    gap: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .map-title{
@@ -285,32 +303,19 @@ body {
 }
 
 .map-container iframe{
-    width: 100%;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     border: 0;
-}
-
-.us-title{
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.about-img img{
-    width: 100%;
-    height: 400px;
 }
 
 /* map */
 
-/* about.html */
-
-/* contact.html */
+/* contact */
 
 .contact {
     max-width: 600px;
     margin: 50px auto;
-    padding: 20px;
+    padding: 20px 40px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -374,7 +379,11 @@ body {
     background-color: #1b4a63;
 }
 
-/* contact.html */
+/* contact */
+
+/* about.html */
+
+
 
 /* foods-html */
 
@@ -537,15 +546,15 @@ body {
     /* about */
     .about, .map-container, .type-name {
         padding: 10px 20px;
-        margin-bottom: 30px;
     }
 
-    .map-container {
+    .about-container {
         grid-template-columns: 1fr;
     }
 
-    .map-container iframe, .about-img img {
-        height: 300px;
+    .map-container iframe {
+        width: 100%;
+        height: auto;
     }
 
     /* foods-html */
