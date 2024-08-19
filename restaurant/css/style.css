@@ -489,10 +489,6 @@ body {
 
 @media screen and (max-width: 768px) {
 
-    /* top bar */
-    
-
-
     /* nav bar */
     .nav-bar {
         grid-template-columns: 1fr;
@@ -582,3 +578,12 @@ body {
         height: 25px;
     }
 }
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+    .product-box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 10px 20px;
+    }
+}
+
