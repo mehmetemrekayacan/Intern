@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 hideAllDropdowns();
                 dropdown.style.display = "block";
-                dropdown.style.top = `${rect.bottom}px`; // Menü item'ının altından açılması için
-                dropdown.style.left = `${rect.left}px`; // Menü item'ının solundan hizalanması için
+                dropdown.style.top = `${rect.bottom}px`;
+                dropdown.style.left = `${rect.left}px`;
             }
         });
     });
