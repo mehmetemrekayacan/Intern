@@ -1,8 +1,13 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    max-width: 302px;
+}
+
+label {
+    color: #5f9341;
+    font-weight: 900;
 }
 
 input {
@@ -21,9 +26,19 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    background: white;
+    color: #5f9341;
+}
+
 #delete-btn {
     background: white;
     color: #5f9341;
+}
+
+#delete-btn:hover {
+    background: #5f9341;
+    color: white;
 }
 
 ul {
