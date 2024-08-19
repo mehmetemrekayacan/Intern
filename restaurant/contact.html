@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header class="top-bar">
+        <a href="/restaurant/index.html">
+            <img class="top-logo" src="image/logo.png" alt="logo">
+        </a>
+        <nav class="top-icon">
+            <a href="/restaurant/about.html"><img src="/restaurant/icon/about.svg" alt="about"></a>
+            <a href="/restaurant/contact.html"><img src="/restaurant/icon/contact.svg" alt="contact"></a>
+        </nav>
+    </header>
+
+    <nav class="nav-bar">
+        <a class="nav-bar-a" id="protein">Proteins <img src="/restaurant/icon/dropdown.svg"></a>
+        <a class="nav-bar-a" id="carb">Carbs <img src="/restaurant/icon/dropdown.svg"></a>
+        <a class="nav-bar-a" id="fruit">Fruits <img src="/restaurant/icon/dropdown.svg"></a>
+        <a class="nav-bar-a" id="special">Specials <img src="/restaurant/icon/dropdown.svg"></a>
+    </nav>
+
+    <nav class="nav-bar-dropdown" id="nav-bar-dropdown-protein">
+        <div>
+            <a href="/restaurant/foods-html/proteins.html#good">Good</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/proteins.html#normal">Normal</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/proteins.html#low">Low</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/proteins.html#poor">Poor</a>
+        </div>
+    </nav>
+
+    <nav class="nav-bar-dropdown" id="nav-bar-dropdown-carb">
+        <div>
+            <a href="/restaurant/foods-html/carbs.html#normal">Normal</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/carbs.html#low">Low</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/carbs.html#poor">Poor</a>
+        </div>
+    </nav>
+
+    <nav class="nav-bar-dropdown" id="nav-bar-dropdown-fruit">
+        <div>
+            <a href="/restaurant/foods-html/fruits.html#normal">Normal</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/fruits.html#low">Low</a>
+        </div>
+        <div>
+            <a href="/restaurant/foods-html/fruits.html#poor">Poor</a>
+        </div>
+    </nav>
+
+    <nav class="nav-bar-dropdown" id="nav-bar-dropdown-special">
+        <div>
+            <a href="/restaurant/foods-html/specials.html">Just Great</a>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <h1 class="contact-title">Contact Us</h1>
+        <p class="contact-text">We are always here to help you. Please feel free to contact us.</p>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav class="footer">
+            <a href="/restaurant/index.html" class="footer-logo">
+                <img src="image/logo.png" alt="logo">
+            </a>
+            <p class="footer-present">All rights reserved. The meeting point of flavor and fun. Thank you for visiting us! Stay tuned and keep adding flavor to your adventure.</p>
+            <p class="footer-policy">© 2024 Minecraft Restaurant.</p>
+            <nav class="footer-icon">
+                <a href="#"><img src="/restaurant/icon/instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="/restaurant/icon/twitter.svg" alt="twitter"></a>
+            </nav>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script_contact.js"></script> 
+</body>
+</html>
