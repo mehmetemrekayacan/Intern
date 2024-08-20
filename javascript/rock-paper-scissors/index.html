@@ -3,13 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body> 
     <h1>Rock Paper Scissors</h1>
-    
+    <div class="play-area">
+        <h3 class="py-one">Player 1</h3>
+        <div class="img-1" id="choice-1"></div>
+        <h2 class="vs">VS</h2>
+        <h3 class="py-two">Player 2</h3>
+        <div class="img-2" id="choice-2"></div>
+    </div>
+    <button id="play-btn">PLAY</button>
     <p id="result"></p>
+    <div class="score-board">
+        <h3 class="score">Score</h3>
+        <p class="py-one-sc">Player 1:</p>
+        <p class="py-two-sc">Player 2:</p>
+        <p id="player-1-score">0</p>
+        <p id="player-2-score">0</p>
     <script src="index.js"></script>
-    
 </body>
 </html>
