@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         ],
         "fruit": [
             { text: "Normal", href: "/restaurant/foods-html/fruits.html#normal" },
-            { text: "Low", href: "/restaurant/foods-html/fruits.html#low" },
-            { text: "Poor", href: "/restaurant/foods-html/fruits.html#poor" }
+            { text: "Vegetables Like Fruits", href: "/restaurant/foods-html/fruits.html#low" },
+            { text: "???", href: "/restaurant/foods-html/fruits.html#poor" }
         ],
         "special": [
             { text: "Just Great", href: "/restaurant/foods-html/specials.html" }
