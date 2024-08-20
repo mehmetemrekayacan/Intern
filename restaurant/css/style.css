@@ -74,6 +74,9 @@ body {
     height: 15px;
     margin-left: 10px;
 }
+.nav-bar-a.open img{
+    transform: rotate(180deg);
+}
 
 /* nav bar */
 
