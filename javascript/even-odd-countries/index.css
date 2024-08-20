@@ -1,0 +1,13 @@
+.country {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+.odd {
+    background-color: black;
+    color: white;
+}
+.even {
+    background-color: red;
+    color: white;
+}
