@@ -3,6 +3,10 @@
     src: url(/restaurant/font/Minecraft.ttf);
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: MCFont;
     background-color: #C2C18D;
@@ -518,6 +522,7 @@ body {
 
 
 @media screen and (max-width: 768px) {
+    
 
     /* nav bar */
     .nav-bar {
@@ -645,4 +650,5 @@ body {
         padding: 10px 20px;
     }
 }
+
 
