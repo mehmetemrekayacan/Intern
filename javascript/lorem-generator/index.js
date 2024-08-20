@@ -17,6 +17,7 @@ function getLines(paragraph, count) {
 function generate() {
     output.innerHTML = ""; 
     const lineCount = Math.min(input.value, 150);
+    
     const lines = getLines(paragraphs, lineCount);
     lines.forEach(line => {
         const p = document.createElement("p");
@@ -26,6 +27,9 @@ function generate() {
 }
 
 generateButton.addEventListener("click", () => {
+    if(input.value>150){
+        alert("Please enter a number between 0 and 150");
+    }
     const inputValue = Math.max(0, Math.min(input.value, 150)); 
     input.value = inputValue;
     generate();
