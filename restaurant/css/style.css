@@ -239,6 +239,12 @@ body {
     color: rgb(255, 255, 255);
 }
 
+#footer-time{
+    grid-column: 2;
+    grid-row: 2;
+    color: rgb(255, 255, 255);
+}
+
 .footer-icon{
     grid-column: 6;
     grid-row: 1;
@@ -309,7 +315,7 @@ body {
 }
 
 .map-container iframe{
-    width: 500px;
+    min-width: 500px;
     height: 600px;
     border: 0;
 }
@@ -364,9 +370,11 @@ body {
     box-sizing: border-box;
 }
 
+
 .contact-form textarea {
     resize: vertical;
     min-height: 150px;
+    height: 250px;
 }
 
 .contact-form button {
@@ -553,7 +561,7 @@ body {
     }
 
     .footer-icon{
-        width: 0px;
+        width: 30px;
         height: 10px;
     }
 
