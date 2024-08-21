@@ -314,9 +314,8 @@ body {
 }
 
 .map-container iframe{
-    min-width: 500px;
-    height: 600px;
-    border: 0;
+    width: 300px;
+    height: 400px;
 }
 
 /* map */
@@ -602,7 +601,14 @@ body {
     }
 
     .map-container iframe {
-        width: 100%;
+        min-width: 300px;
+        height: 400px;
+
+    }
+
+    .contact {
+        padding: 10px 20px;
+        width: 300px;
 
     }
 
