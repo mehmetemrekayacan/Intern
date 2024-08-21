@@ -29,6 +29,8 @@ body {
     display: flex;
     justify-content: left;
     align-items: center;
+    width: 200px;
+    height: 100px;
 }
 
 .top-icon{
@@ -484,7 +486,7 @@ body {
 
 /* foods-html */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .top-bar {
         grid-template-columns: 1fr;
         padding: 10px 20px;
@@ -497,18 +499,6 @@ body {
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 10px;
-    }
-
-    .top-icon a img {
-        height: 100%;
-        width: 100%;
-        max-width: 50px;
-    }
-
-    .top-logo {
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 20px;
     }
 }
 
