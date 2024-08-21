@@ -114,11 +114,11 @@ body {
 }
 
 #nav-bar-dropdown-protein {
-    left: 0;
+    left: 5%;
 }
 
 #nav-bar-dropdown-carb {
-    left: 25%;
+    left: 27%;
 }
 
 #nav-bar-dropdown-fruit {
@@ -126,7 +126,7 @@ body {
 }
 
 #nav-bar-dropdown-special {
-    left: 75%;
+    left: 73%;
 }
 
 /* nav bar dropdown */
@@ -651,4 +651,23 @@ body {
     }
 }
 
+
+@media screen and (min-width: 1000px) {
+    #nav-bar-dropdown-protein {
+        left: 3%;
+    }
+    
+    #nav-bar-dropdown-carb {
+        left: 26%;
+    }
+    
+    #nav-bar-dropdown-fruit {
+        left: 50%;
+    }
+    
+    #nav-bar-dropdown-special {
+        left: 74%;
+    }
+    
+}
 
