@@ -24,7 +24,7 @@ button:hover{
     background-color: #555;
 }
 
-div{
+.input-div{
     display: flex;
     align-items: center;
     background-color: white;
@@ -47,3 +47,17 @@ h1{
     margin: 0;
 }
 
+.output-container {
+    display: grid;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    column-count: 3;
+}
+
+.output-container p {
+    margin: 0;
+    border-radius: 5px;
+    column-count: 2;
+}
