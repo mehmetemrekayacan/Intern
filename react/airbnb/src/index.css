@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.nav-bar {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  max-width: 100px;
+}
+
+.hero-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-container img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero-container h1 {
+  margin-bottom: 16px;
+}
+
+.hero-container p {
+  margin-top: 0;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  height: 14px;
+}
+
+.gray {
+  color: gray;
+}
+
+.bold {
+  font-weight: bold;
+}
