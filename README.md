@@ -75,10 +75,10 @@ This repository contains a collection of web-based projects built using JavaScri
 This repository includes a collection of useful documents and PDFs related to web development and design concepts. Below is a list of available files:
 
 1. **Agile Methodology**
-   - [Agile Method (PDF)]([path-to-pdf](https://github.com/mehmetemrekayacan/Intern/blob/main/documentations/Agile-Method.pdf))
+   - [Agile Method (PDF)](https://github.com/mehmetemrekayacan/Intern/blob/main/documentations/Agile-Method.pdf)
 
 2. **CSS Flexbox**
-   - [CSS Flex (PDF)]([path-to-pdf](https://github.com/mehmetemrekayacan/Intern/blob/main/documentations/CSS-Flex.pdf))
+   - [CSS Flex (PDF)](https://github.com/mehmetemrekayacan/Intern/blob/main/documentations/CSS-Flex.pdf)
 
 3. **CSS Gradient**
    - [CSS Gradient (PDF)](path-to-pdf)
