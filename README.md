@@ -69,3 +69,47 @@ This repository contains a collection of web-based projects built using JavaScri
    - A fully responsive restaurant landing page with menu, contact form, and reservations.
    - **Tech stack**: HTML, CSS, JavaScript
    - [Live Demo](#) | [Source Code](#)
+
+## Documentation and PDFs
+
+This repository includes a collection of useful documents and PDFs related to web development and design concepts. Below is a list of available files:
+
+1. **Agile Methodology**
+   - [Agile Method (PDF)]([path-to-pdf](https://github.com/mehmetemrekayacan/Intern/blob/main/documentations/Agile-Method.pdf))
+
+2. **CSS Flexbox**
+   - [CSS Flex (PDF)]([path-to-pdf](https://github.com/mehmetemrekayacan/Intern/blob/main/documentations/CSS-Flex.pdf))
+
+3. **CSS Gradient**
+   - [CSS Gradient (PDF)](path-to-pdf)
+
+4. **CSS Grid**
+   - [CSS Grid (PDF)](path-to-pdf)
+
+5. **CSS Positioning**
+   - [CSS Position (PDF)](path-to-pdf)
+
+6. **Color Theory**
+   - [Color Theory (PDF)](path-to-pdf)
+
+7. **Firebase Guide**
+   - [Firebase (PDF)](path-to-pdf)
+
+8. **Glassmorphism Design**
+   - [Glassmorphism (PDF)](path-to-pdf)
+
+9. **HTML Semantic Elements**
+   - [HTML Semantic Elements (PDF)](path-to-pdf)
+
+10. **MVP (Minimum Viable Product)**
+    - [MVP (PDF)](path-to-pdf)
+
+11. **Markdown Guide**
+    - [Markdown (PDF)](path-to-pdf)
+
+12. **Pseudo Elements in CSS**
+    - [Pseudo Element (PDF)](path-to-pdf)
+
+13. **iFrame Usage in HTML**
+    - [iFrame (PDF)](path-to-pdf)
+
