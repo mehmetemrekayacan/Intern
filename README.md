@@ -8,62 +8,62 @@ This repository contains a collection of web-based projects built using JavaScri
 1. **Blog Page**
    - A responsive blog layout with articles sections.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://neon-bunny-1b526a.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/blog-page)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/blog-page)
 
 2. **Business Card**
    - A simple digital business card with contact details and social links.
    - **Tech stack**: HTML, CSS
-   - [Live Demo](https://bussnies-card-mr.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/business-card)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/business-card)
 
 3. **Basketball Scoreboard**
    - A dynamic scoreboard for tracking basketball games.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://dancing-lolly-4e6cab.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/basketball-scoreboard)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/basketball-scoreboard)
 
 4. **Blackjack**
    - A browser-based blackjack game with card animations.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://gregarious-speculoos-1f4f3b.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/blackjack)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/blackjack)
 
 5. **Calculator**
    - A simple calculator with basic arithmetic operations.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://peppy-centaur-3f31a2.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/calculator)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/calculator)
 
 6. **Chrome Extension**
    - A custom Chrome extension with added features for browsing.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Download Extension](https://fastidious-kheer-2f1e97.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/chrome-extension)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/chrome-extension)
 
 7. **Even-Odd Countries**
    - A tool that categorizes countries based on even and odd populations.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://gregarious-boba-a01ecd.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/even-odd-countries)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/even-odd-countries)
 
 8. **Lorem Generator**
    - A lorem ipsum text generator for generating dummy text.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://spontaneous-kitten-0909f4.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/lorem-generator)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/lorem-generator)
 
 9. **Passenger Count**
    - An app to track passenger counts for public transportation.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://vermillion-hotteok-8c5ee8.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/passanger-count)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/passanger-count)
 
 10. **Password Generator**
    - A tool to generate secure random passwords with customizable options.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://dreamy-marshmallow-b46df6.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/password-generator)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/password-generator)
 
 11. **Rock-Paper-Scissors**
    - A classic rock-paper-scissors game against the computer.
    - **Tech stack**: JavaScript, HTML, CSS
-   - [Live Demo](https://sunny-biscotti-3f0f23.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/rock-paper-scissors)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/javascript/rock-paper-scissors)
 
 13. **Restaurant Website**
    - A fully responsive restaurant landing page with menu, contact form, and reservations.
    - **Tech stack**: HTML, CSS, JavaScript
-   - [Live Demo](https://shiny-blancmange-9df407.netlify.app/) | [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/restaurant)
+   -  [Source Code](https://github.com/mehmetemrekayacan/Intern/tree/main/restaurant)
 
 ## How to Run
 
